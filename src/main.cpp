@@ -16,7 +16,7 @@ WiFiMulti wifiMulti;
 /* this info will be read by the python script */
 int currentVersion = 2; // increment currentVersion in each release
 
-String baseUrl = "https://raw.githubusercontent.com/my-dudhwala/esp32-firmware-update/main/";
+String baseUrl = "https://raw.githubusercontent.com/my-dudhwala/esp32-firmware-update-2/main/";
 String checkFile = "update.json";
 /* end of script data */
 
