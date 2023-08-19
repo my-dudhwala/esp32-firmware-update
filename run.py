@@ -6,7 +6,7 @@ project = 'esp32-firmware-update'
 binFiles = glob.glob(project + "*.bin")
 	
 #read the arduino sketch
-file = open(project + '.ino', 'r')
+file = open(project + '.txt', 'r')
 lines = file.readlines()
 file.close()
 
