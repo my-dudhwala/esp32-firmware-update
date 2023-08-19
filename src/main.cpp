@@ -16,7 +16,7 @@ WiFiMulti wifiMulti;
 /* this info will be read by the python script */
 int currentVersion = 2; // increment currentVersion in each release
 
-String baseUrl = "https://raw.githubusercontent.com/fbiego/esp32-firmware-update/main/";
+String baseUrl = "https://raw.githubusercontent.com/my-dudhwala/esp32-firmware-update/main/";
 String checkFile = "update.json";
 /* end of script data */
 
@@ -25,8 +25,8 @@ bool fwCheck = false;
 String fwUrl = "", fwName = "";
 
 /* your wifi credentials */
-char * WIFI_SSID = "WLAN1-4A6959";
-char * WIFI_PASS = "5F310FE2122A5EF";
+char * WIFI_SSID = "R&D Web";
+char * WIFI_PASS = "123456789";
 
 static void rebootEspWithReason(String reason) {
   Serial.println(reason);
